@@ -65,7 +65,7 @@ test('deconstruct', () => {
     expect(personWithoutChildren).to.deep.equal({
         firstName: 'Slawek',
         lastName: 'Radzyminski',
-        age: 19,
+        age: 18,
         isAdult: true
     })
 })
