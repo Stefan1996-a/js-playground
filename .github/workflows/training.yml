@@ -9,10 +9,9 @@ on:
       - master
 
 jobs:
-  something_job:
+  run_tests:
       runs-on: ubuntu-latest
     steps:
-    - name: Git clone
       uses: actions/checkout@v3
     - name: Setup Node.js 18
       uses: actions/setup-node@v3
